@@ -1,0 +1,64 @@
+
+
+1) * = Certainly! The * quantifier in regular expressions indicates that the preceding element should occur zero or more times. Here are a few examples:
+
+     Matching Repeated Characters:
+
+	Pattern: a*
+	Matches: "", "a", "aa", "aaa", ...
+	Matching a Specific Sequence:
+
+	Pattern: ab*
+	Matches: "a", "ab", "abb", "abbb", ...
+	Matching Words with Prefix:
+	
+	Pattern: pre*
+	Matches: "pr", "pre", "pree", "preee", ...
+	Matching Patterns with Optional Characters:
+	
+	Pattern: colou*r
+	Matches: "color", "colour", "colouur", "colouuur", ...
+
+2) + = Certainly! The + quantifier in regular expressions indicates that the preceding element should occur one or more times. Here are a few examples:
+		
+       Matching Repeated Characters:
+
+	Pattern: a+
+	Matches: "a", "aa", "aaa", ...
+	Matching a Specific Sequence:
+
+	Pattern: ab+
+	Matches: "ab", "abb", "abbb", ...
+	Matching Words with Prefix:
+	
+	Pattern: pre+
+	Matches: "pre", "pree", "preee", ...
+	Matching Repeated Patterns:
+	
+	Pattern: (123)+
+	Matches: "123", "123123", "123123123", ...
+
+3) ? = Certainly! The ? quantifier in regular expressions indicates that the preceding element should occur either zero times or exactly one time.
+Matching Optional Characters:
+
+	Pattern: colou?r
+	Matches: "color", "colour"
+	Matching Plural and Singular Forms:
+
+	Pattern: apple(s)?
+	Matches: "apple", "apples"
+	Matching URLs with or without "www":
+
+	Pattern: https?://(www\.)?example\.com
+	Matches: "http://example.com", "https://www.example.com", "https://example.com"
+	Matching Abbreviations with or without Periods:
+
+	Pattern: Dr\.?
+	Matches: "Dr", "Dr."
+
+4) | (pipe): Acts like an OR operator.
+
+5) [] (square brackets): Defines a character class. [abc] matches either 'a', 'b', or 'c'.
+
+
+	
